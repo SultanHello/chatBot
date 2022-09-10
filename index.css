@@ -1,0 +1,43 @@
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    background: rgb(230, 159, 248);
+    border-radius: 50px;
+    padding: 20px;
+}
+ul{
+    background: rgb(229, 136, 252);
+    padding: 30px;
+    border-radius: 50px;
+}
+.container{
+    width: 400px;
+    margin: auto;
+}
+.inputin{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background: rgb(230, 159, 248);;
+    text-align: center;
+    border:none
+}
+.btn{
+    width: 80px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: rgb(230, 159, 248);;
+    border: none;
+}
+.DltBtn{
+    width: 80px;
+    height: 55px;
+    border-radius: 50px;
+    background-color: rgb(230, 159, 248);;
+    border: none;
+}
+*{
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    background: rgb(247, 213, 255);
+}
