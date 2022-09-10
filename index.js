@@ -64,7 +64,7 @@ btn.addEventListener('click',function(event){
                 li.textContent = `Вы : ${a} `
                 lirobo.textContent = `Bot : Султан`
                 break;
-            case 'вы робот?':
+            case 'ты робот?':
                 li.textContent = `Вы : ${a} `
                 lirobo.textContent = `Bot : Я человек))`
                 break;
@@ -72,6 +72,13 @@ btn.addEventListener('click',function(event){
                 li.textContent = `Вы : ${a} `
                 lirobo.textContent = `Bot : отлично, я теперь существую !!!!`
                 break;
+            case 'кто ты?':
+                li.textContent = `Вы : ${a}`
+                lirobo.textContent = `Bot : Меня завут GTP-980 меня создал разработчик по имени Султан в 10.09.2022`
+                break;
+            case 'чем ты занимаешься?':
+                li.textContent= `Вы : ${a}`
+                lirobo.textContent = `Bot : Я пока что только отвечаю на ваши вопросы но в будушем думаю меня улучшят(`
             default :
                 li.textContent = `Вы : ${a} `
                 lirobo.textContent = `Bot : Я вас не понимаю`
